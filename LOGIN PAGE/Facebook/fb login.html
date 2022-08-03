@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+</head>
+<style>
+    body {
+        text-align: center;
+        background-color: #f0f2f5;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        color: #1473ef;
+        font-size: 45px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        font-weight: bolder;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
+
+    a {
+        color: #1473ef;
+        font-size: 13px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    fieldset {
+        width: 370px;
+        text-align: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        border-style: hidden;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    }
+
+    .fbform {
+        margin-bottom: 70px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        padding: 10px;
+    }
+
+    form input {
+        border-radius: 5px;
+        width: 330px;
+        height: 45px;
+        outline: none;
+        margin-top: 12px;
+        border: 1px solid #ccc;
+    }
+
+    input.subm {
+        color: rgb(255, 255, 255);
+        background-color: #1473ef;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
+    input.sign.forgot {
+        margin: 200px;
+        margin-bottom: 40px;
+        font-weight: 100;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+
+    input[type=email] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 10px 4;
+        box-sizing: border-box;
+        border: 1px solid rgba(128, 128, 128, 0.523);
+        border-radius: 5px;
+        font-weight: lighter;
+    }
+
+
+    input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 0px;
+        box-sizing: border-box;
+        border: 1px solid rgba(128, 128, 128, 0.523);
+        border-radius: 5px;
+        font-weight: lighter;
+    }
+
+    input[type="submit"] {
+        background-color: #1473ef;
+        color: white;
+        width: 100%;
+        font-size: larger;
+        font-weight: bold;
+    }
+
+    form input[type="submit"]:hover {
+        background-color: #116ee8;
+        cursor: pointer;
+    }
+
+    .footer1 {
+        width: 100%;
+        background-color: white;
+        margin-top: 90px;
+        height: 240px;
+    }
+
+    img{
+        width: 65%;
+        margin-top: 50px;
+    }
+</style>
+
+<body>
+
+    <div class="fb">
+        <h1>facebook</h1>
+    </div>
+
+    <div class="fbform">
+        <form action="#">
+            <fieldset>
+                <h3>Log in to Facebook</h3>
+                <input class="email" type="email" placeholder="Email or phone number" required>
+                <p class="text"></p>
+                <input class="password" type="password" placeholder="Password" required> <br> <br>
+                <input class="subm" type="submit" value="Log in"> <br>
+                <a href="" class="forgot">Forgotten account?</a> &nbsp;
+                <a href="" class="sign">Sign up for Facebook</a> <br> <br>
+            </fieldset>
+        </form>
+    </div>
+    <div class="footer1">
+        <form>
+            <img src="footer.PNG">
+        </form>
+    </div>
+</body>
+</html>
